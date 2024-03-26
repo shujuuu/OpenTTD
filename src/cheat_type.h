@@ -26,6 +26,7 @@ struct Cheat {
 struct Cheats {
 	Cheat magic_bulldozer;  ///< dynamite industries, objects
 	Cheat switch_company;   ///< change to another company
+	Cheat sudo_remove; 		///< remove roads regardless of ownership
 	Cheat money;            ///< get rich or poor
 	Cheat crossing_tunnels; ///< allow tunnels that cross each other
 	Cheat no_jetcrash;      ///< no jet will crash on small airports anymore
